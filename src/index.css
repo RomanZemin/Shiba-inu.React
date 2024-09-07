@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "VelaSans";
+  src: local("VelaSans Bold"), local("VelaSans-Bold"),
+    url("/src/assets/fonts/VelaSans-Bold.woff2") format("woff2"),
+    url("/src/assets/fonts/VelaSans-Bold.woff") format("woff"),
+    url("/src/assets/fonts/VelaSans-Bold.otf") format("otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VelaSans";
+  src: local("VelaSans Medium"), local("VelaSans-Medium"),
+    url("/src/assets/fonts/VelaSans-Medium.woff2") format("woff2"),
+    url("/src/assets/fonts/VelaSans-Medium.woff") format("woff"),
+    url("/src/assets/fonts/VelaSans-Medium.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VelaSans";
+  src: local("VelaSans SemiBold"), local("VelaSans-SemiBold"),
+    url("/src/assets/fonts/VelaSans-SemiBold.woff2") format("woff2"),
+    url("/src/assets/fonts/VelaSans-SemiBold.woff") format("woff"),
+    url("/src/assets/fonts/VelaSans-SemiBold.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: "VelaSans";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button:hover {
+  opacity: 0.75;
+}
+
+img {
+  pointer-events: none;
+}
